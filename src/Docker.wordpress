@@ -1,0 +1,3 @@
+FROM wordpress:php7.4-fpm-alpine
+
+COPY ./php.d/uploads.ini /usr/local/etc/php/conf.d/uploads.ini

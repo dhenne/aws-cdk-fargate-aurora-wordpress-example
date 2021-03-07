@@ -1,0 +1,48 @@
+---
+version: '3.8'
+services:  
+  webserver:
+    image: nginx
+    container_name: webserver
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - html:/var/www/html:ro
+    build:
+      context: .
+      dockerfile: Docker.nginx
+      args:
+        upstream_wordpress_php: wordpress
+  db:
+    image: mariadb:10.5.8
+    container_name: db
+    restart: unless-stopped
+    environment:
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_ROOT_PASSWORD=verysecretrootpassword
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+    volumes:
+      - mariadb-datadir:/var/lib/mysql
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress
+    container_name: wordpress
+    restart: unless-stopped
+    environment:
+      - WORDPRESS_DB_HOST=db:3306
+      - WORDPRESS_DB_USER=user
+      - WORDPRESS_DB_PASSWORD=password
+      - WORDPRESS_DB_NAME=wordpress
+      - WORDPRESS_TABLE_PREFIX=wp_
+    volumes:
+      - html:/var/www/html
+    build:
+      context: .
+      dockerfile: Docker.wordpress
+
+volumes:
+  mariadb-datadir:
+  html:
