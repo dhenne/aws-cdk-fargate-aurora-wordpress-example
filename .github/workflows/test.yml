@@ -9,28 +9,43 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      #
+      # setup system
+      #
       - uses: actions/setup-python@v2
         with:
           python-version: "3.9"
       - run:
           python -m pip install --upgrade pipenv wheel
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "15"
+      #
+      # python dependencies
+      #
       - id: cache-pipenv
         uses: actions/cache@v2
         with:
           path: ~/.local/share/virtualenvs
-          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
+          key: ${{ runner.os }}-dependencies-${{ hashFiles('**/Pipfile.lock') }}
       - run: pipenv install
         if: steps.cache-pipenv.outputs.cache-hit != 'true'
+      #
+      # nodejs dependencies
+      #
+      - id: cache-npm
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-dependencies-${{ hashFiles('**/package-lock.json') }}
+      - run: npm install
+        if: steps.cache-npm.outputs.cache-hit != 'true'
+      #
+      # run tests
+      #
       - name: python unit test
         run: pipenv run pytest -v
-      #
-      # cdk aws command
-      #
-      - uses: actions/setup-node@v2
-        with:
-          node-version: "15"
-      - run: npm install
       - name: cdk synth
         run: |
           export PATH=$PATH:$(pwd)/node_modules/.bin
-          cdk synth
+          pipenv run cdk synth
