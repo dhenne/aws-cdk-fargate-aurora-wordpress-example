@@ -1,6 +1,5 @@
 node_modules/
 *.swp
-package-lock.json
 __pycache__
 .pytest_cache
 .env

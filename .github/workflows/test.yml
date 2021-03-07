@@ -10,20 +10,51 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      #
+      # setup system
+      #
       - name: python install
         uses: actions/setup-python@v2
         with:
           python-version: "3.9"
-      - name: pipenv package
+      - name: pipenv install
         run:
           python -m pip install --upgrade pipenv wheel
-      - id: cache-pipenv
+      - name: nodejs install
+        uses: actions/setup-node@v2
+        with:
+          node-version: "15"
+      #
+      # python dependencies
+      #
+      - name: python virtualenv cache
+        id: cache-pipenv
         uses: actions/cache@v2
         with:
           path: ~/.local/share/virtualenvs
           key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
-      - name: pipenv virtualenv install
+      - name: python virtualenv install
         run: pipenv install
         if: steps.cache-pipenv.outputs.cache-hit != 'true'
+      #
+      # nodejs dependencies
+      #
+      - name: nodejs modules cache
+        id: cache-npm
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+      - name: nodejs modules install
+        run: npm install
+        if: steps.cache-npm.outputs.cache-hit != 'true'
+      #
+      # run tests
+      #
       - name: python unit test
         run: pipenv run pytest -v
+      - name: cdk synth
+        run: |
+          export PATH=$PATH:$(pwd)/node_modules/.bin
+          pipenv run cdk synth
+          test -f cdk.out/manifest.json
