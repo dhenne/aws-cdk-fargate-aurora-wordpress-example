@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/codecentric/spring-boot-admin/workflows/build/badge.svg)](https://github.com/codecentric/spring-boot-admin/actions)
+[![Build Status](https://github.com/dhenne/aws-cdk-fargate-aurora-wordpress-example/actions/workflows/test.yml/badge.svg)](https://github.com/dhenne/aws-cdk-fargate-aurora-wordpress-example/actions/workflows/test.yml)
 
 # aws cdk fargate aurora serverless wordpress example
 

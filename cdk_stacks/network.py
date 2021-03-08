@@ -26,11 +26,6 @@ class NetworkStack(core.Stack):
                     subnet_type=ec2.SubnetType.PRIVATE,
                     name="Private",
                     cidr_mask=24
-                ),
-                ec2.SubnetConfiguration(
-                    subnet_type=ec2.SubnetType.ISOLATED,
-                    name="DB",
-                    cidr_mask=24
                 )
             ],
             nat_gateway_provider=ec2.NatProvider.gateway(),
