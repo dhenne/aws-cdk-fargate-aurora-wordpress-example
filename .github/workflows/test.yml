@@ -1,5 +1,5 @@
 ---
-name: aws-cdk-fargate-aurora-wordpress-example
+name: tests
 on: push
 
 jobs:

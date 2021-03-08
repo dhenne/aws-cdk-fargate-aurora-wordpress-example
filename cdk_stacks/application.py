@@ -34,7 +34,7 @@ class WordpressStack(core.Stack):
             default_database_name="WordpressDatabase",
             vpc=properties.vpc,
             scaling=rds.ServerlessScalingOptions(
-                auto_pause=core.Duration.seconds(300)
+                auto_pause=core.Duration.seconds(0)
             ),
             deletion_protection=False,
             backup_retention=core.Duration.days(7),
@@ -103,21 +103,23 @@ class WordpressStack(core.Stack):
         #
         # application server
         #
-        web_container = event_task.add_container(
+        app_container = event_task.add_container(
             "Php",
             environment={
-                # 'WORDPRESS_DB_HOST': database.db_instance_endpoint_address,
                 'WORDPRESS_DB_HOST': database.cluster_endpoint.hostname,
                 'WORDPRESS_TABLE_PREFIX': 'wp_'
             },
             secrets={
-                'WORDPRESS_DB_USER': ecs.Secret.from_secrets_manager(database.secret, field="username"),
-                'WORDPRESS_DB_PASSWORD': ecs.Secret.from_secrets_manager(database.secret, field="password"),
-                'WORDPRESS_DB_NAME': ecs.Secret.from_secrets_manager(database.secret, field="dbname"),
+                'WORDPRESS_DB_USER':
+                    ecs.Secret.from_secrets_manager(database.secret, field="username"),
+                'WORDPRESS_DB_PASSWORD':
+                    ecs.Secret.from_secrets_manager(database.secret, field="password"),
+                'WORDPRESS_DB_NAME':
+                    ecs.Secret.from_secrets_manager(database.secret, field="dbname"),
             },
             image=ecs.ContainerImage.from_docker_image_asset(wordpress_image)
         )
-        web_container.add_port_mappings(
+        app_container.add_port_mappings(
             ecs.PortMapping(container_port=9000)
         )
 
@@ -126,7 +128,7 @@ class WordpressStack(core.Stack):
             container_path="/var/www/html",
             source_volume=wordpress_volume.name
         )
-        web_container.add_mount_points(container_volume_mount_point)
+        app_container.add_mount_points(container_volume_mount_point)
 
         #
         # create service
