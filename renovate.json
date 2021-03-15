@@ -3,5 +3,8 @@
     "config:base",
     "group:all"
   ],
-  "automerge": true
+  "automerge": true,
+  "dockerfile": {
+    "fileMatch": ["(^|/)Docker\\.[^/]*$"]
+  }
 }
