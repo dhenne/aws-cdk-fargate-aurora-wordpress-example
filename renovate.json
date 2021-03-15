@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base",
-    "group:all"
-  ]
+    "config:base"
+  ],
+  "automerge": true
 }
