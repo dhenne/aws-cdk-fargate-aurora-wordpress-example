@@ -9,6 +9,6 @@
   "author": "Daniel Henneberg",
   "license": "MIT",
   "dependencies": {
-    "aws-cdk": "1.95.1"
+    "aws-cdk": "1.95.2"
   }
 }

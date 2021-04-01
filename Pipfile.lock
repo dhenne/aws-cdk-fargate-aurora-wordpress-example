@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dbec88d9b8f638574bea1b3c02d06457c34b139b83636308f52a0a0c4054c39f"
+            "sha256": "1070adfaa496c0b54d613aeebe6e39291a62bdf0ffb51f385d33928c920d8669"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,355 +26,355 @@
         },
         "aws-cdk.assets": {
             "hashes": [
-                "sha256:1731d69aa118c4af9d445a3d273dbd2243890fb5659a3bf194564269a118a2b6",
-                "sha256:ecbea35b8a3254af8d91a35b8842f1e9aa5b5964fb32975330d14e518fdad519"
+                "sha256:00c5b53292d67c1c29f059cf7e72f023af36f040c4fa42501d36fa88eea17574",
+                "sha256:62cf3c17cb7e6ba2103d5162dbbf429ca8ccb3a45e6c43b7c66c28a838dbf203"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-apigateway": {
             "hashes": [
-                "sha256:31be51f799e9848806f703a889d399fa88f369b351206a92d6973ad9cb7f5910",
-                "sha256:ee4e1db849e4b5ffa784653a9b424d6348eaabd91978c51dc762809691ba1a21"
+                "sha256:5ab7c97e228a68dd6a4bedb9d580ad23d90798a9be22b32f1aafdb656c166bec",
+                "sha256:76c4e9dea5ec9e31f84dfd8ba789a023229126d76bf6369e88107804da7460bc"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-apigatewayv2": {
             "hashes": [
-                "sha256:20c9740c561a6ad6e393457b76255476b29d28aaad52487cc2257eee0a67dd4e",
-                "sha256:556f8e6284ac158a767d9dc7883cd5c098fd00d3d4d3ddc874773b6fb02f924f"
+                "sha256:25eeaad3ec759e9e1c24331b532bf7f0241d894fb7b3ff568c6ccea7b9d1f06a",
+                "sha256:6af5fbb7ebf3a9d261eec5abc57d55b9318b42ec9989c65271f26d597d280716"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-applicationautoscaling": {
             "hashes": [
-                "sha256:be643265c84a9ac89dfa8c091b4ad72fcd49b27755be8ad50cfbd7cffdb878ac",
-                "sha256:ec277385584df08b1a14ed13b357d8a820608f86a02f431ee7138538819364ce"
+                "sha256:49638161091b569c13c20bafcfa25ac17307e9ceaa31a9a04e158f2c2ed0f716",
+                "sha256:c743ba67bd08bd4780eeb8bfd07476185bf0aa094b0a03f4a2b871565ad3ad82"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-autoscaling": {
             "hashes": [
-                "sha256:083c5e1702ceb51ae9f628b21a784071113381935bcefd08cafefb57ce6208b0",
-                "sha256:f8cfb1b52869fd2d765d4fe5c5a88372d710fae4ca21252a8ed9b184b0f5c9a7"
+                "sha256:a058df462069ae0708214c31caee4782db2e0d449e0ed8e3bfedea48bdd67c63",
+                "sha256:c9ecbe00cdaa0aca7cb2d8b5498b5b913092065e1ea9f4da9593a0e1aa93138b"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-autoscaling-common": {
             "hashes": [
-                "sha256:42b709f70f641bff1ab83a11d53532c0c92c1684e876ec9945b1d2fd26009d53",
-                "sha256:ce7de41fd9b38ed060511be8bd052758984f587a5cf421d3c616e98abac46a69"
+                "sha256:0f75d5732f502ade504ffd7af31effe1b4759b430446f408031f64e3fcf91c7c",
+                "sha256:9f6e45ca677251ed098ad98abc59e2fe18b16181d605ee831fe2eb8bebda3635"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-autoscaling-hooktargets": {
             "hashes": [
-                "sha256:a7eb45b413a7b5f065dabdd0ae818bf24dc5a9c7b36a72c432c7c4b0c750848b",
-                "sha256:cbf42556f6bde1594cb5867822671e1d1bf63a263acdb16f3ff2dc4474c4fe2e"
+                "sha256:7333d7aeea7a2250f51538ec981e95f86eef230749ef845a02022cf3ed9515f1",
+                "sha256:c5d38b134cc4175b74dbcbe2cfba0f0014b6bcd70190888936ba133772af0870"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-certificatemanager": {
             "hashes": [
-                "sha256:173be2c9f33863f743831d3b255601a97ef092f01a911e325a896eb5a99dee83",
-                "sha256:a3a4e9c1abd2476d274aef127e0766dc76fc639fa8a360f93bd5de65208af681"
+                "sha256:2d0cac808507d0c8bbaddf524fb201135344206deda22e7e137720a058b371aa",
+                "sha256:7639cd1d71b00610543c781e1cde2eb156b7160b67f9a03bf65b22314b8a2f86"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-cloudformation": {
             "hashes": [
-                "sha256:1fa1387cd27a1cb279825bf77406acb4d9517c1c579e6850ba6bff160f6bd323",
-                "sha256:8e752f446e4d85eb9696fdde5ef0167f181b787d06454d4dfc4b526b01860851"
+                "sha256:c30caa1710115e04ea682c17f1427f3d402f73bd845d1ffa9671f109e3eae970",
+                "sha256:f5d28cf9a3cbabd5b440aa1df29426dc8ab0e000592870ffd433586ce1f68b23"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-cloudfront": {
             "hashes": [
-                "sha256:432ba14e731881e5e9c635d0395f89545b921d6401178436c89b76141211897d",
-                "sha256:73515e6b8e3d267081e02899d3ebe286a980955488d2a0f5b2f1dbd9e3887679"
+                "sha256:3116177f9b020c067b5f843fd328491d54f154c3adbf42456efaf499d0881d39",
+                "sha256:dd351fa6b802ab41486a429d8ba950d261a9c30b857e6414d9543cb46ccffd4f"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-cloudwatch": {
             "hashes": [
-                "sha256:314a2ebb0bfe418243fc68e891d0def3d9122eacc7b680e6c5bc904e76472743",
-                "sha256:dadb452e3cf2843cce37ab577d914c064b5a65927b338180fc608e0cbe93291f"
+                "sha256:73c1e0f27acbe04e44253b4a16949abfa562422e29f4dd1d9d3cfd308ce740d5",
+                "sha256:744ea7c039d9d8831e88fccc03b9c9c60948abbf654d2032860514f6e2812703"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-codeguruprofiler": {
             "hashes": [
-                "sha256:89eb728fe42b9d25e5c2e56fe10e2b332142e474bb2f690d1b006338cd200a53",
-                "sha256:ca7ea65a121ddc709471cc1cec978546af7b1417a6a5937152864840b0d6d88d"
+                "sha256:d1ee10303eb44143fde5c61e4bd6e69db5a9e830b3c0446d907dc20cf537911b",
+                "sha256:e06e023638405345ccc83bb1205633db6a9cdfcfcdfdee2f5a9bec0d55a3ecd8"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-cognito": {
             "hashes": [
-                "sha256:71fdae0e6281c835ebb8b38197883ee6bd7ca1fb8c7fc67ba537afcdeddf86eb",
-                "sha256:8b5fbcfed78963239073007031452c2fd8197d8fda01b74266347cc7974c22be"
+                "sha256:0a27410360a36f0a2a461be4bebf1d3602783ce683a2eb28ba37e995f83afce6",
+                "sha256:caf83fc2328f380a40613c14d719ff05f790c629edc7826fef1f78f3aab605df"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-ec2": {
             "hashes": [
-                "sha256:84ff62cdcf22376b51d001ee2bc98f5cc59161a8e3057ba25319ecee317546a5",
-                "sha256:be5e9fb3236c1cd989e5683c698246e8bab5753474173a8c96049a43d4c7cbd0"
+                "sha256:827f022143151012d93871b0b053fa9f66cc510e77f3a234098a01e228a21958",
+                "sha256:98a2f891047537ca5578ec30bd4a3b46d6d2ff208539da30f34693b9c74e2e1e"
             ],
             "index": "pypi",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-ecr": {
             "hashes": [
-                "sha256:269567428cd58c7bf0b2dc63057883afd189c5007875a5e2b1e2c460f9fa96c4",
-                "sha256:9b73f6b839a95190289af5a940da79b98a29d52bf31c7515a00539a3004c449a"
+                "sha256:80add24dc420ec4acac2502efec56b41e569ab2ba95130c03f401c4006ff1cdd",
+                "sha256:ceeb9fd2131b21276047cc7f9c49fe4bfe7a6a7bd702f9aa263c540f4c74c0d0"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-ecr-assets": {
             "hashes": [
-                "sha256:62a38af3e03c32eb3e0b0593ac0bd65aa2219117336d2e474403098f02d8da32",
-                "sha256:d94015b4841bb4243d7725392bde36a43e118110f736afd4928b8bd0e499d55b"
+                "sha256:03c5874c86ef685ac0ea86eb53d4b214bec6457ba02b4477648d35a430714896",
+                "sha256:6be94bccb276e9c791183daa749f5ebfa42583b60b770f7e6e820c311a637b2b"
             ],
             "index": "pypi",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-ecs": {
             "hashes": [
-                "sha256:198607271811f92a7f329bf9f39aaeb9afc4e592ffb77b73bb12d435192b1b01",
-                "sha256:caa16662c5a2627d4507a28f8bd0e5cd42f694ef78aec14b86d3eeecde89e6dc"
+                "sha256:12f28886498fb3b7ebfde32d5e15447d28ea882ed95749923d8aecd7b03f9d63",
+                "sha256:97f87155d1d8efad6eedabfea279c83602369ef027ae59dd21512e93cd3efd17"
             ],
             "index": "pypi",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-efs": {
             "hashes": [
-                "sha256:6681cc89959753be19438220bf1ecf026867cd824c9a1bce4af307bf54fdec30",
-                "sha256:8b724bc1ed2c1ee5ae677d6865311f7052ce412894be1fb23daab6afc27152ac"
+                "sha256:bb5073c9316304a559a93170fbdbc68fee1004ee94d8ed0a6990d73caf07381b",
+                "sha256:f773bd2589cca27672bedff627293be7ebcf89a468434aec6ae77d1111495b6f"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-elasticloadbalancing": {
             "hashes": [
-                "sha256:12f0271d4e3c499f7cf83ec506500be9459959162d1dbb8df17428aeffab4893",
-                "sha256:9e22e5995910c1e5c3c33f6f13011e9a11ba484e08f33bf4112ba7805fc9e666"
+                "sha256:72e45aa55136facf86c1cd615b94da4feaeede161d53bdb4456f587c779e5528",
+                "sha256:b4e1fbe0d4ecaea0b94b3207e2e597b3973438af5ea9d90951f922ae28fa2ee1"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-elasticloadbalancingv2": {
             "hashes": [
-                "sha256:43e2b072cf0f11613cf779c4183ce462d84d970c5c41c0c553a28a08629887dd",
-                "sha256:831c172bad0a71551cb2eeeacde7cc249ab675bd9ac7c66bcadf0f2d8dfa7e0a"
+                "sha256:9cb29095e6f55047201de641ea05ff6f0f23214ad8d7083c5d7042df6dc94ab8",
+                "sha256:e6fde3e93b1712bc2cd77dc86b4df0f437bc6bd532f489bb56bb682f0419cc2e"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-events": {
             "hashes": [
-                "sha256:8a332ce3545dae642af737de280fc5eac69b58042e21ce942b9445b72c4f939d",
-                "sha256:a26950a7bffdbde8a8a3cd680cb03251ae82b32cb0811c879d00da9d6138a77a"
+                "sha256:8a897a51b2a04f218d28dc1fe4c03272b81c7c1e82488754415b69d72ffb02ef",
+                "sha256:ee2e5bd722249c51d6ebf3d3a3fb55333b97d586cb30e9ad2b1336fe6861b1bc"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-globalaccelerator": {
             "hashes": [
-                "sha256:c0d6896c0ea6cafefb0defc7e32469137b27156c5b19822492b36124a7dc7aa0",
-                "sha256:e3272bb3fd816f3a6cb464897295a36d4a6b7bf7b9001c10bd975aceeeb7d1a3"
+                "sha256:d387ff6596d8fd9f2f022a719a782107697ee7da291eaa003756e8482ae586b2",
+                "sha256:ecaace355217bad1b04eecb01811d1c48af17ff33149703a66d6216e0a6e2d23"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-iam": {
             "hashes": [
-                "sha256:4360c1e5aaef1b80bf1fd6e4e4718529e91878ee9e01577f4d9051536ac94b11",
-                "sha256:543dd13b5b96b549616e60c9e127b7a0522147d3b0d4ec3c277e331d8720a926"
+                "sha256:46fa0fda1cf1177ece380f1ea39b4f091897e705c1859448f02cc8faeca1727a",
+                "sha256:c5b572ac177d6dcf1d3b96355bc24d5823e2ef4c7abcfa45aad791d8a475680b"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-kms": {
             "hashes": [
-                "sha256:65205a551774b641e179e930992368c09768b2d1096544cfa45ec02282225a77",
-                "sha256:dd4a0f4fd13d7f6cd1ff3ce3eec4bcaf71e7e9abec70983421e856391d6ae9bd"
+                "sha256:9f26b6d078ffaca803388904025d71b0c0b4a423d7951c3fe2610601b831b4f2",
+                "sha256:bc86c3a5083aa7b91bf05742bf18addc48def59e8d7287955571c2199078e0d0"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-lambda": {
             "hashes": [
-                "sha256:6e8032f143b1773431d514d47a887b322e61249fab4e868133c321ddfaf89871",
-                "sha256:c10e96e7480b13cea511158c6294213b2cceaa3ea9e3fb3c6af4c9cafa960511"
+                "sha256:c1592f300743e9e9b0ee29f24dddfebdf48c7e9453a1498ec3730776c6e93db5",
+                "sha256:c9c64ccfb093cec02984755ffbc0e8aad02e81eb890d996a4fe33116314e8d6c"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-logs": {
             "hashes": [
-                "sha256:5fd4fabc2bfd784e4b923abce842e745ad711e004a6d1a55a83641473e01ee94",
-                "sha256:7a2dadb609a32d008f1dfc73341de5d72cb30035705d3d6acafe09a5af0d852c"
+                "sha256:1458924e5a4fe040cb9062953ae196f5a978fa0f6d24e19c172be335d525cb7e",
+                "sha256:e192dca8f44fde895a4ef09ed553f55c777a7792f3f1eb2697cb50ded5d636a5"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-rds": {
             "hashes": [
-                "sha256:46c04aef87385450345a62e4b8f53b6b08ba9aed9b6dc24c1e13463bfff1ff98",
-                "sha256:68c7fbc33e1b53c1d5a24ba9dd5c2ece9046cb4ab1b447888519ee8d60c763b6"
+                "sha256:90b5ca3719ee897babd977e9307da0475fc17c6cde168328b9f8647f207c6a9f",
+                "sha256:b8c56d318e57c10bf61541931569daaa9243d63090d2342cb603a92343d2c1e3"
             ],
             "index": "pypi",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-route53": {
             "hashes": [
-                "sha256:a1f4755bbfcb8767999ba968d9879162968265474dd4e4e543749f89f685d542",
-                "sha256:ecb15b4ee585a1b7dee60f873960af1dca92fd47f3301a6378209e69dd3a21ac"
+                "sha256:63e4621cec4f6005a5fd1ecce9d2b5f9e7a64157c50790f39fc4fe089f9af7f8",
+                "sha256:77b003907cebcff12c4a18f4c9532dba9a8f876949478f78b9fda52133c38297"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-route53-targets": {
             "hashes": [
-                "sha256:3c1191e074df2e63573ae330a79fc94f04690cb7f183dc70ea591ec06d6a204e",
-                "sha256:f566540cdab16f55d0639302d5124ffda00491f830824951e9b688a51df35ec4"
+                "sha256:210d7cda1c7d0394f6015fde857773da1e34462ef2b759d9070a2b277a159d41",
+                "sha256:c02cd65a52b94036e3fbfcebac3dacb5ef02d05a592d6561ed6c4579214878c5"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-s3": {
             "hashes": [
-                "sha256:32b69bcdba5d137b9cb3ccf637d1da170e7413d5409395f027eaa17bfe06a8cc",
-                "sha256:b315c131d8fac43382396e011428ed02d2a68ae61755981bb7a82b73913f3fa5"
+                "sha256:a82367e94f4f1096f268fdd1079964e9425859e9814d9ee78019632d8b0dccea",
+                "sha256:bca1e34946cf52dce176b44fdd42fb65b2b5ecac4ad01e3cb77832ce96364d53"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-s3-assets": {
             "hashes": [
-                "sha256:212c7e1670a02bb574e2801669cf8b1840ff699a3b15fb1b9aaef36e5bfb44c5",
-                "sha256:df673334b09bc554d971ab3ea9b02db6bef7a19709ea354950b25e8eb869e792"
+                "sha256:496fa4919c9fdbe27417bf876b5019c211b2672f9e8775b621274d84704cfe87",
+                "sha256:7b41cfc9428ffd652bd7f1d0348050b9d34ae64f83d260258910dcd6275be6d6"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-sam": {
             "hashes": [
-                "sha256:06e133629b816010ecca0b56676de37a3f2098d09ea2c2f466c44b4b52b57192",
-                "sha256:165013dd2da1d3032a1f5a3c310145828b4d0d8001ea1a82738de1ffc3bb091c"
+                "sha256:5873a4d93d3f1046c7df75e52106c2aed5356e4f1caf7240d74d6060368ae902",
+                "sha256:996db90141e2b2efcc1f4c86e6e32d6218d32b67de922d39e638a153fe15c070"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-secretsmanager": {
             "hashes": [
-                "sha256:56b671f38c25b814a12fedca1dfc313e31c42ed5c7324d9aa3b086bfa2f93a5a",
-                "sha256:5fde26652a558c57ffc6c3dfb7f0659c578357f799c33b1d901c0962369858cf"
+                "sha256:aa89539ab2c28d4d3fc7e5d67cdda6a02de948cb783b4fbed0592a08e7e4b7fe",
+                "sha256:bc22403a232ac72a8a90899cc0370d38d4c08707ed19525afab8ce3eba548b8e"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-servicediscovery": {
             "hashes": [
-                "sha256:71bc449d7164316ca75264b09524a2076735e97a694d4da97df6beefee31e077",
-                "sha256:a534133f00eea10b4b980484217b5b9eb8e49978724ad8927015f36b4f67fea8"
+                "sha256:3cf3aeaafc10ca71a1da45037696ef145be6c59bbe1d3eb82d21ce31b160a5c2",
+                "sha256:5073bb55121c584fff23362655fbb7a413e04879437f9c6b3af5c3fe0fe5656e"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-signer": {
             "hashes": [
-                "sha256:03da07e788ca92e4bb221cd74b3231959273ea5ab92155c88ebcbe379ba77b23",
-                "sha256:d0516a78c671cacc5543e202daab13d0e1e6b0ae698c10ab00012b0dcf8d3980"
+                "sha256:c8d6098d599f691b21b3f37f01dd7d35a7b9d4d9b6b0261df1b690d57b72b440",
+                "sha256:d33025fa14841a0e748e1936b3e537fee379194e5b0bd0a2dc7f44f36c79d4f8"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-sns": {
             "hashes": [
-                "sha256:1a8cb7ab67f2fe686e937e3cf950de2f36b49678b5e9d2df0578d4f307f49663",
-                "sha256:f2b660e9228ea645313d7c626b6db96fde3e8dec84fb34f2f60b777e6ce5b893"
+                "sha256:c390cdba5972a665cbbbf293c7f1d0d22b25a7f326346e16cf8a6d388852f6a4",
+                "sha256:feef357be3b75df0a0f5dcb1d73e68ece7d264ade1ec2bcc5c3d0af02008f819"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-sns-subscriptions": {
             "hashes": [
-                "sha256:37ac0b1a374314f50c9413e63c6e19e11c5e04d0ef414f2af43e8dfe2f1933e5",
-                "sha256:c122d2bd7ba6fbc9d2d622ad48fd2c4841d68cce51876e628e4da27f2bc938d0"
+                "sha256:a2aa6554886cd310d1f545a103df782d089d1753ea74beb90a5efc5d7ba0dbf5",
+                "sha256:b625d5cf8c569c920ba48199f8806cafb58afb7338ade039eebcda405881087c"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-sqs": {
             "hashes": [
-                "sha256:237a09a425d01867649a14689ff4c09e5e056ec67285c16209d16f98e4a40185",
-                "sha256:dfc477adda0f95ba8e1b4b3bd7b2c03ca9b29f48efddac33bca5418b91637c2f"
+                "sha256:2ec26fe267f9d917b4fd1af9bd2d2b5888ced811c14825c388a58de313d7d7f6",
+                "sha256:6f5b23ea9ca6bfbc550020250b52bd896c817f7e030c70eac9c9b5d52c4851c7"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.aws-ssm": {
             "hashes": [
-                "sha256:87307a73c5250339980fa7247bb742f36add9e0138f6bd8af5ad191964f1fea2",
-                "sha256:a5194964d60bab8f179bed68d0c97a51bd4e43b4a3d1db4b29762414b5f1f856"
+                "sha256:adb4f5232a8950dfde55654c17a68d0ca32a68cf0667ab3166f204f630fa1f93",
+                "sha256:b7df152179d39fad969b36f9f64ec39c4fa8e117fd3e804585909eb5f6943481"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.cloud-assembly-schema": {
             "hashes": [
-                "sha256:3278c9d0d50be4db3887264f81c95aef02baffd464644c39e04eaf93d51ca40c",
-                "sha256:94871d220823bc7f2c73c10f2b0afa216c5f7ba392b34d0ebcb6070b8362bd12"
+                "sha256:d48b0bf7a991973e5367c55f010f21545af49d4d912fe8045dcbe76caa4dbcaa",
+                "sha256:d4f4fab2834c165b0b1d97475c5560235e48122a7a9884c37bdec30f5b3909ec"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.core": {
             "hashes": [
-                "sha256:0120054706c34f35d70b8e6ffe96004bb2bc25fb983c982c2cdae598a64b0d8d",
-                "sha256:9d05181bd93091728ae63334c8496ff7fad0d0723cd28b63a93d1a16967033b4"
+                "sha256:6e95c4cb5e2ec57e932e62a69ac6d2e1d18b7ece920085b3c17cd514c220728d",
+                "sha256:9395a86a6947f72f27d76bbe33bd3b898ee0a45be245ed0505be6c8a402f838c"
             ],
             "index": "pypi",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.custom-resources": {
             "hashes": [
-                "sha256:024682ea66ee69c4d81955f9c39ffad3a0230cd657db63c0287d51c4daac22c9",
-                "sha256:4f3de6822c2d6599e7736216fd351af425b5305e0a4221f8ab0d0d6862b3e520"
+                "sha256:68192c71317c5b4026762d90ea45e97f63098c93939787f54a2487681ddbe8e5",
+                "sha256:83ecdeae7ab68e9c9bb2b5ed7fbed82b4eb821395c3eeeb6be1cb44aac6374e4"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.cx-api": {
             "hashes": [
-                "sha256:77797cce0349cb88ce6de157426c1c62ed5611eb9587e2f756da8ce56460ecb7",
-                "sha256:b8d79ef7b8abd74f9e4d923e55db454522d4d71450f7ee69650a8809a74835bd"
+                "sha256:442970ba536776242fec128eccd95a43192b3fc7c807b1c1ec35d1ed6732e827",
+                "sha256:fcb0b32fbf641383a592cc731aa90053a353ef046dc36c8143f2a5334661652e"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "aws-cdk.region-info": {
             "hashes": [
-                "sha256:48bdaccf5af91d4d7fa8f57c566d8271f0bad1bc2a32bc8373739f158eb8d2f7",
-                "sha256:931db46e491eb06a24f869dd0ca5d25308087bfa07b3baafc0d886ac5259749f"
+                "sha256:e5ed01154b2df20e4601f90fb227384bd6b84513a5dbbe5145bbfbfe8ebfc3e7",
+                "sha256:f8f5e1470830cb8e7bfa71c8287a08e78d449dbc3907b524f3887aa059be2582"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.95.1"
+            "version": "==1.95.2"
         },
         "cattrs": {
             "hashes": [
