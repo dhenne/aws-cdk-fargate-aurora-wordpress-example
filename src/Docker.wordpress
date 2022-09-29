@@ -1,3 +1,3 @@
-FROM wordpress:php7.4-fpm-alpine@sha256:ee9cd5ef76c228b18621a185183a7d0a554a0f180e76e3d82bbe91e5f57f919d
+FROM wordpress:php7.4-fpm-alpine@sha256:fbd8d4c2bd40420b0d3b32a8aa6b730de35bf270e9d6452963f49e268be7c142
 
 COPY ./php.d/uploads.ini /usr/local/etc/php/conf.d/uploads.ini
