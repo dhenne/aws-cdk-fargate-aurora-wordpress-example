@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-"aws-cdk.core" = "==1.178.0"
-"aws-cdk.aws-rds" = "==1.178.0"
-"aws-cdk.aws-ec2" = "==1.178.0"
-"aws-cdk.aws-ecs" = "==1.178.0"
-"aws-cdk.aws-ecr-assets" = "==1.178.0"
+"aws-cdk.core" = "==1.179.0"
+"aws-cdk.aws-rds" = "==1.179.0"
+"aws-cdk.aws-ec2" = "==1.179.0"
+"aws-cdk.aws-ecs" = "==1.179.0"
+"aws-cdk.aws-ecr-assets" = "==1.179.0"
 pytest = "==7.2.0"
 
 [dev-packages]
