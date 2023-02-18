@@ -15,7 +15,7 @@ services:
       args:
         upstream_wordpress_php: wordpress
   db:
-    image: mariadb:10.10.3
+    image: mariadb:10.11.2
     container_name: db
     restart: unless-stopped
     environment:
