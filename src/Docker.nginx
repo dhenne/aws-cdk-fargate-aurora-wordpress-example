@@ -1,4 +1,4 @@
-FROM nginx:1.23.4-alpine@sha256:6a4ef48f9d439d566bc3a4fa0b15bd9a44eda43f6c72223a7562e525687cc5b8
+FROM nginx:1.23.4-alpine@sha256:c94a22b036afa972426b82d5b0a49c959786005b4f6f81ac7467ca5538d0158f
 
 ARG upstream_wordpress_php=localhost
 
