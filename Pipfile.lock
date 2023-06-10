@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9393a04261c51a9a6d94c388d1c94bbe576cce3349cf7a419313576697c19e82"
+            "sha256": "e10a17fca742340375dccd98d6120fa2b7fa928bcdcfa26816bb361350f1f3ba"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -402,11 +402,11 @@
         },
         "constructs": {
             "hashes": [
-                "sha256:554063fc21e0b008840962f3cd73d528b975c788b11cbdf94a9e38629eee8148",
-                "sha256:a6938f43664cc04bf2cf233983e41db0df1963bdc625b2ce8441480f1d485a89"
+                "sha256:35825b2bbd5f8f46bc0b0a321735c096d9df140e6a7604b67ad29b4bcb845696",
+                "sha256:f289747bec8abcfc13eaee2f609b3786d5f9ebb20c1a4dba69c18105ff4d8754"
             ],
             "markers": "python_version ~= '3.7'",
-            "version": "==3.4.314"
+            "version": "==3.4.322"
         },
         "exceptiongroup": {
             "hashes": [
@@ -434,11 +434,11 @@
         },
         "jsii": {
             "hashes": [
-                "sha256:69231656bec928fbabadac096c88a4a6c9e2cc0d6e6e4ddb5d0ccaf84ade5bd2",
-                "sha256:7876ed3ab13bb56a463ac3e38e6ece427628a894a600fd5ad87a6e1da5af98ba"
+                "sha256:7c9790843d09ef92d8fec7955ff37419435127bc42a72cd83745ebaab8545f03",
+                "sha256:ed5af7f656bfe652543668e2fb8667c527391b09d02a0fec1deca1e1aa0118ad"
             ],
             "markers": "python_version ~= '3.7'",
-            "version": "==1.82.0"
+            "version": "==1.83.0"
         },
         "packaging": {
             "hashes": [
@@ -465,11 +465,11 @@
         },
         "pytest": {
             "hashes": [
-                "sha256:3799fa815351fea3a5e96ac7e503a96fa51cc9942c3753cda7651b93c1cfa362",
-                "sha256:434afafd78b1d78ed0addf160ad2b77a30d35d4bdf8af234fe621919d9ed15e3"
+                "sha256:cdcbd012c9312258922f8cd3f1b62a6580fdced17db6014896053d47cddf9295",
+                "sha256:ee990a3cc55ba808b80795a79944756f315c67c12b56abd3ac993a7b8c17030b"
             ],
             "index": "pypi",
-            "version": "==7.3.1"
+            "version": "==7.3.2"
         },
         "python-dateutil": {
             "hashes": [
